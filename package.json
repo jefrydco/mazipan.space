@@ -15,36 +15,39 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@mdx-js/loader": "1.6.22",
-    "@next/mdx": "10.0.6",
-    "apexcharts": "^3.24.0",
-    "byte-size": "^7.0.0",
-    "classnames": "2.2.6",
-    "date-fns": "2.17.0",
+    "apexcharts": "^3.26.0",
+    "byte-size": "^7.0.1",
+    "classnames": "2.3.1",
+    "date-fns": "2.19.0",
     "gray-matter": "4.0.2",
-    "next": "10.0.6",
+    "next": "latest",
     "parse-numeric-range": "1.2.0",
-    "prism-react-renderer": "1.1.1",
-    "react": "17.0.1",
+    "prism-react-renderer": "1.2.0",
+    "react": "17.0.2",
     "react-apexcharts": "^1.3.7",
-    "react-dom": "17.0.1",
+    "react-dom": "17.0.2",
     "react-markdown": "5.0.3"
   },
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
     "app-root-dir": "1.0.2",
-    "eslint": "7.20.0",
+    "autoprefixer": "^10.2.5",
+    "eslint": "7.23.0",
     "eslint-config-standard": "16.0.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.3.1",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "7.23.1",
     "eslint-plugin-standard": "5.0.0",
     "feed": "4.2.2",
     "mkdirp": "1.0.4",
     "nanositemap": "0.0.2",
-    "postcss-preset-env": "6.7.0",
+    "postcss": "^8.2.9",
     "shelljs": "0.8.4",
-    "tailwindcss": "1.9.6",
-    "tailwindcss-dark-mode": "1.1.7"
+    "tailwindcss": "^2.0.4"
+  },
+  "resolutions": {
+    "postcss": "^8.2.9",
+    "cssnano-preset-simple": "2.0.0"
   }
 }

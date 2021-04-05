@@ -31,7 +31,12 @@ export default class MyDocument extends Document {
               function setTheme(newTheme) {
                 window.__theme = newTheme;
                 preferredTheme = newTheme;
-                document.body.className = newTheme;
+                // document.body.className = newTheme;
+                if (newTheme === 'dark') {
+                  document.documentElement.classList.add('dark')
+                } else {
+                  document.documentElement.classList.remove('dark')
+                }
                 window.__onThemeChange(newTheme);
               }
               var preferredTheme;

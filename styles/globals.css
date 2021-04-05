@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
 .dark {
   --bg-primary: #1A202C;
   --text-primary: #F7FAFC;
@@ -12,7 +13,7 @@
 .light {
   --bg-primary: #F7FAFC;
   --text-primary: #1A202C;
-}
+};
 
 .header-def {
   @apply flex justify-between items-center mb-20 mt-8;
@@ -36,8 +37,8 @@
   bottom: 0;
   content: "";
   height: 4px;
-  @apply absolute block w-full bg-gradient-to-r from-orange-400 via-red-500 to-pink-500;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  @apply absolute block w-full bg-gradient-to-r from-orange-400 via-red-500 to-pink-500;
 }
 
 .text-link:hover:before {
@@ -161,3 +162,4 @@
   user-select: none;
   opacity: 0.5;
 }
+*/
