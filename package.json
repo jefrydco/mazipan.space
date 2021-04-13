@@ -48,6 +48,7 @@
   },
   "resolutions": {
     "postcss": "^8.2.9",
-    "cssnano-preset-simple": "2.0.0"
+    "cssnano-preset-simple": "2.0.0",
+    "postcss-functions": "4.0.2"
   }
 }
